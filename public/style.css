@@ -1,10 +1,35 @@
 *{
     padding:0px;
-    margine: 0px;
+    margin: 0px;
 }
 body{
     background-color:rgb(30,30,30);
     color: white;
     overflow: hidden;
     overflow-y: scroll;
+}
+.port{
+    color: white;
+    font-family: cursive;
+    margin-left: 100px;
+    font-size: 35px;
+}
+.folio{
+    color: green;
+    font-family: cursive;
+    
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px azure;
+    padding: 15px;
+    position: sticky;
+    cursor: pointer;
+}
+.desktopMenuListItem{
+    font-size: 25px;
+    padding: 5px;
 }
