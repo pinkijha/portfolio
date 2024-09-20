@@ -1,0 +1,10 @@
+*{
+    padding:0px;
+    margine: 0px;
+}
+body{
+    background-color:rgb(30,30,30);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
