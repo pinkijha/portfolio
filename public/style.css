@@ -1,6 +1,7 @@
 *{
     padding:0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 body{
     background-color:rgb(30,30,30);
@@ -8,6 +9,8 @@ body{
     overflow: hidden;
     overflow-y: scroll;
 }
+
+/* navbar Start*/
 .port{
     color: white;
     font-family: cursive;
@@ -24,12 +27,34 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 2px 2px azure;
+    box-shadow: 1px 1px azure;
     padding: 15px;
     position: sticky;
     cursor: pointer;
 }
 .desktopMenuListItem{
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
+    margin: 0 10px;
 }
+.desktopMenuListItem:hover{
+    color: green;
+    border-bottom: green 3px solid;
+    padding-bottom: 0.5rem;
+}
+.desktopMenuBtn{
+    background-color: aliceblue;
+    color: green;
+    padding:  12px;
+    margin-right: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* navbar End */
+
+/* header start */
+
