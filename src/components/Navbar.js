@@ -1,21 +1,25 @@
-import React from 'react';
-import logo from "../assets/portfolio-logo.png";
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
+
+
+ 
+
   return (
     <div>
-      <nav className='navbar'>
+      <nav   className='navbar'>
         <Link className='port'>Port<span className='folio'>Folio</span></Link>
         <div className='desktopMenu'>
-            <Link className=' desktopMenuListItem'>Home </Link>
-            <Link className=' desktopMenuListItem'>About </Link>
-            <Link className=' desktopMenuListItem'>Skills </Link>
-            <Link className=' desktopMenuListItem'>Projects </Link>
+            <Link className=' desktopMenuListItem' to="/home" >Home </Link>
+            <Link className=' desktopMenuListItem' to="/home" >About </Link>
+            <Link className=' desktopMenuListItem' to="/home" >Skills </Link>
+            <Link className=' desktopMenuListItem' to="/home" >Projects </Link>
+            {/* <div className=''onClick={showMenu} ><GiHamburgerMenu /></div> */}
 
         </div>
         <button className='desktopMenuBtn'>
-            <img className='desktipMenuImg' src="" /> Contact 
+             Contact Me
         </button>
       </nav>
     </div>

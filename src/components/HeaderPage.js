@@ -1,9 +1,9 @@
 import React from 'react'
-import { BACKGROUND_IMAGE } from '../utils/constant';
+import { BACKGROUND_IMAGE } from '../utils/constant'
 
-const Intro = () => {
+const HeaderPage = () => {
   return (
-    <div className='mainHeaderSection'>
+      <div className='mainHeaderSection'>
       <div className='headerSection'>
         <p  className='headerSectionpara'>Hello 👋 I'm</p>
         <h1 className='headerSection1'>Pinki Jha</h1>
@@ -18,4 +18,4 @@ const Intro = () => {
   )
 }
 
-export default Intro;
+export default HeaderPage
