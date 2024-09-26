@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Arial', sans-serif;
 }
 html {
     scroll-behavior: smooth;
@@ -80,7 +81,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
     min-height: 500px;
-    font-family: "Ubuntu", sans-serif;
 
 }
 .backgroundImg{
@@ -98,7 +98,7 @@ body{
 
 }
 .headerSection1{
-    font-size: 80px;
+    font-size: 50px;
 }
 .headerSection2{
     font-size: 40px;
@@ -149,6 +149,54 @@ body{
 
 /* ============================================================================================================= */
 
+/* About Start */
+.aboutBg{
+    height: 100vh;
+    width: 100%;
+}
+
+.bgImages{
+    position: relative;
+    top:10px;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+
+}
+.aboutSection{
+    position: absolute;
+    top: 750px;  
+    left: 100px;
+    z-index: 30;
+    color: black;
+    width: 450px;
+    border-radius: 40px 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    box-shadow: 5px 8px 8px 5px #aaaaaa;
+}
+.aboutPara{
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    letter-spacing: 1px;   
+    font-family: "Poppins", sans-serif;
+
+}
+.aboutHeading{
+    margin: 10px;
+    padding: 20px;
+    color: green;
+}
+.aboutBuildPara{
+    color: green;
+    cursor: pointer;
+}
+
+
+
+/* About End */
 
 /* ============================================================================================================= */
 
