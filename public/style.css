@@ -143,6 +143,43 @@ body{
     border: 2px green solid;
 }
 
+@media screen  and (max-width: 840) {
+
+    
+.headerSection{
+    position: absolute;
+     top: 250px;  
+    left: 100px;
+    z-index: 30;
+
+}
+.headerSection1{
+    font-size: 25px;
+}
+.headerSection2{
+    font-size: 20px;
+    font-weight: 100;
+}
+.headerSection .headerSectionpara{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.headerSection .hireBtn{
+        background-color: rgb(26, 30, 26);
+        color: white;
+        padding: 15px;
+        border: none;
+        border-radius: 20px;
+        font-size: small;
+        margin-left: 10px;
+        box-shadow: 1px 1px 1px rgb(197, 196, 196);
+        cursor: pointer;
+    }
+    
+    
+}
+
 
 
 /* header End */
@@ -168,7 +205,7 @@ body{
     position: absolute;
     top: 750px;  
     left: 100px;
-    z-index: 30;
+    z-index: 20;
     color: black;
     width: 450px;
     border-radius: 40px 10px;
@@ -194,6 +231,54 @@ body{
     cursor: pointer;
 }
 
+@media screen and (max-width: 840px) {
+    .bgImages .aboutBg {
+        display: none;
+    }
+    .aboutMain{
+        background-color: white;
+    }
+
+    .aboutSection{
+        position: absolute;
+        top: 750px;  
+        left: 50px;
+        z-index: 10;
+        color: black;
+        width: 350px;
+        border-radius: 40px 10px;
+        margin-top: 10px;
+        margin-left: 50px;
+        box-shadow: 5px 5px 5px 5px #aaaaaa;
+    }
+    .aboutPara{
+        padding: 10px;
+        text-align: justify;
+        line-height: 1.5;
+        letter-spacing: 0.5px;   
+        font-family: "Poppins", sans-serif;
+
+    }
+    .aboutHeading{
+        margin: 10px;
+        padding: 10px;
+        color: green;
+    }
+    .aboutBuildPara{
+        color: green;
+        cursor: pointer;
+    }
+    
+}
+
+
+
+
+
+    
+
+
+
 
 
 /* About End */
@@ -202,3 +287,39 @@ body{
 
 
 /* ============================================================================================================= */
+
+
+
+/* ============================================================================================================= */
+
+
+/* ============================================================================================================= */
+
+
+/* ============================================================================================================= */
+
+
+/* ============================================================================================================= */
+
+/* Footer Start flex flex-col sm:flex-row justify-center items-center text-center p-4 bg-gray-100*/
+
+.footer{
+display: flex;
+justify-content: center;
+justify-items: center;
+padding: 16px;
+background-color: green;
+box-shadow: 1px 1px ;
+
+}
+
+.footerHeartIcon{
+    color: red;
+    padding: 0px 4px;
+}
+.footerCopyRightIcon{
+    
+    padding: 0px 4px;
+}
+
+/* Footer End */
