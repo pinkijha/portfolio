@@ -307,6 +307,60 @@ body{
 
 /* ============================================================================================================= */
 
+/* Project Section Start */
+.projectSection{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    color: green;
+}
+.projectHeading{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.cardsProjects{
+    margin: 10px 2px 10px 200px ;
+
+}
+.react-heading{
+    font-size: 20px;
+    color: black;
+
+}
+.reactImg{
+    display: flex;
+}
+.cards{
+    margin: 20px 5px 20px 20px;
+    padding: 3px;
+    box-shadow: 1px 1px 10px 1px rgb(190, 189, 189);
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.cards a{
+    color: green;
+}
+.cards p{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.reactProjectImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px 20px;
+    border-radius: 15px;
+}
+
+
+
+
+/* Project Section Ends */
 
 
 /* ============================================================================================================= */
@@ -566,9 +620,74 @@ body{
 }
 
 
-        /* Footer */
 
-        
+
+
+
+ /* Footer */
+
+     /* Responsive Footer Adjustments */
+
+/* Tablets (screens 768px to 1024px) */
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin-top: 400px;
+        padding: 20px;
+    }
+
+    .footerText {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .footerIcons {
+        margin-top: 10px;
+    }
+}
+
+/* Mobile (screens 480px to 768px) */
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footerText {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .footerIcons {
+        margin-top: 10px;
+        flex-direction: row;
+    }
+
+    .footerHeartIcon, 
+    .footerCopyRightIcon {
+        margin: 0 5px;
+    }
+}
+
+/* Small Mobile (screens below 480px) */
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 10px;
+    }
+
+    .footerText {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .footerIcons {
+        margin-top: 10px;
+        flex-direction: row;
+    }
+
+    .footerHeartIcon, 
+    .footerCopyRightIcon {
+        margin: 0 3px;
+    }
+}   
 
 
     
@@ -596,8 +715,7 @@ box-shadow: 1px 1px ;
     color: red;
     padding: 0px 4px;
 }
-.footerCopyRightIcon{
-    
+.footerCopyRightIcon{    
     padding: 0px 4px;
 }
 
