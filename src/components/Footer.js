@@ -15,9 +15,9 @@ const Footer = () => {
                 target="_blank"   style={{'color': 'white'}}
                 rel="noopener noreferrer"
             >
-                Pinki Jha
+                Pinki Jha | 
             </a>
-            <span className="footerCopyRightIcon"><FaCopyright /></span>
+            <span className="footerCopyRightIcon"> <FaCopyright /></span>
             <p className="px-1" style={{'padding': '0px 4px'}}>2024</p>
             <p className="px-1">PortFolio</p>
         </div>

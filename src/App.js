@@ -1,5 +1,6 @@
 
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import HeaderPage from "./components/HeaderPage";
 import Navbar from "./components/Navbar";
@@ -16,6 +17,7 @@ function App() {
      <About/>
      <Skills/>
      <Projects/>
+     <Contact/>
      <Footer/>
     </div>
   );
