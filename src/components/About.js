@@ -3,7 +3,7 @@ import bg from "../assets/banner-img.jpg"
 
 const About = () => {
   return (
-    <div className='aboutMain'> 
+    <section className='aboutMain' id='about'> 
       <div className='aboutSection'>
         <h1 className='aboutHeading'>About Me</h1>
         <p className='aboutPara'>Hello! I'm Pinki Jha, a passionate front-end developer with over 2.5 years of experience building responsive and user-friendly web applications.I specialize in React.js, HTML5, CSS3, JavaScript, and have hands-on experience with Bootstrap, Redux, and Tailwind CSS.
@@ -17,7 +17,7 @@ const About = () => {
         <div className='bgImages'>
             <img className='aboutBg' src={bg} />
         </div>
-    </div>
+    </section>
   )
 }
 

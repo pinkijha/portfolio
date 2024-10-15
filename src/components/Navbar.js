@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-scroll'
 import { MdOutlineMenu } from "react-icons/md";
 
 const Navbar = () => {
@@ -18,13 +18,15 @@ const toggleHumberger = () => {
         
           <div className={`desktopMenu ${humbergerOpen ? 'open' : ''}`} >
             
-            <Link className=' desktopMenuListItem' to="/home" >Home </Link>
-            <Link className=' desktopMenuListItem' to="/home" >About </Link>
-            <Link className=' desktopMenuListItem' to="/home" >Skills </Link>
-            <Link className=' desktopMenuListItem' to="/home" >Projects </Link>
+            <Link activeClass='active' to="header" spy={true} smooth={true} offset={-100} duration={500} className=' desktopMenuListItem' >Home </Link>
+            <Link className=' desktopMenuListItem' activeClass='active'  to="about" spy={true} smooth={true} offset={-40} duration={500} >About </Link>
+            <Link className=' desktopMenuListItem' activeClass='active'  to="skills" spy={true} smooth={true} offset={-100} duration={500} >Skills </Link>
+            <Link className=' desktopMenuListItem' activeClass='active'  to="projects" spy={true} smooth={true} offset={-50} duration={500} >Projects </Link>
 
         </div>
-        <button className='desktopMenuBtn'>
+        <button className='desktopMenuBtn' onClick={() =>{
+          document.getElementById('contact').scrollIntoView({behavior: 'smooth'})
+        }}>
              Contact Me
         </button>
         

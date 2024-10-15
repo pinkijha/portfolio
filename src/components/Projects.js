@@ -10,7 +10,7 @@ import amazon from '../assets/p4.jpg'
 
 const Projects = () => {
   return (
-    <div className='projectSection'>
+    <div className='projectSection' id='projects'>
       <h1 className='projectHeading'>My Projects</h1>
 
       <div className='projectCrads'>

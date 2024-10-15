@@ -10,7 +10,7 @@ import figma from '../assets/figma.png'
 
 const Skills = () => {
   return (
-    <section className='skillSection'>
+    <section className='skillSection' id='skills'>
 
     <div className='headingSkills' >
        <h1>Skill Set</h1>

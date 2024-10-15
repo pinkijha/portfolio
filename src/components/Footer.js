@@ -6,7 +6,7 @@ const Footer = () => {
    
     
     return (
-        <div className="footer flex flex-col sm:flex-row justify-center items-center text-center p-4 bg-gray-100">
+        <div className="footer" id="footer">
             <p className="px-1">Created By</p> 
             <p className="footerHeartIcon"><FaHeart /></p>            
             <a 

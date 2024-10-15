@@ -29,6 +29,11 @@ body{
     font-family: cursive;
     
 }
+.active{
+    color:green;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid green;
+}
 .navbar{
     background-color: black;
     display: flex;
@@ -114,7 +119,7 @@ body{
 
 .headerSection{
     position: absolute;
-     top: 250px;  
+    top: 250px;  
     left: 100px;
     z-index: 30;
 
@@ -190,7 +195,7 @@ body{
 }
 .aboutSection{
     position: absolute;
-    top: 750px;  
+    top: 800px;  
     left: 100px;
     z-index: 20;
     color: black;

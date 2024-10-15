@@ -3,7 +3,7 @@ import { BACKGROUND_IMAGE } from '../utils/constant'
 
 const HeaderPage = () => {
   return (
-      <div className='mainHeaderSection'>
+      <div className='mainHeaderSection' id='header'>
       <div className='headerSection'>
         <p  className='headerSectionpara'>Hello 👋 I'm</p>
         <h1 className='headerSection1'>Pinki Jha</h1>
