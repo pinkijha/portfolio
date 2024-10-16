@@ -15,7 +15,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_m42337m', 'template_qzeylo6', form.current, 'p7gYkcjrkT1qBA6XbzJmj' )
+      .sendForm('service_edym81d', 'template_3l2gac1', form.current, 'wlHaEimVH7c4HpNodVS9f' )
       .then(
         () => {
           console.log('SUCCESS!');
@@ -38,19 +38,19 @@ const Contact = () => {
           <h2 className='form-title'>Message Me</h2>
           <form className='contact-form'  ref={form} onSubmit={sendEmail}>
             <div className='input-group'>
-              <label htmlFor='name'>Name</label>
-              <input type='text' id='name' placeholder='Enter your name'  name="your_name" />
+              <label>Name</label>
+              <input type='text' placeholder='Enter your name'  name="your_name" />
             </div>
             <div className='input-group'>
-              <label htmlFor='email'>Email</label>
-              <input type='email' id='email' placeholder='Enter your email'  name="your_email" />
+              <label>Email</label>
+              <input type='email'  placeholder='Enter your email'  name="your_email" />
             </div>
-            <div className='input-group'>
+            {/* <div className='input-group'>
               <label htmlFor='subject'>Subject</label>
               <input type='text' id='subject' placeholder='Enter subject' />
-            </div>
+            </div> */}
             <div className='input-group'>
-              <label htmlFor='message'>Describe Project</label>
+              <label >Describe Project</label>
               <textarea id='message' rows='5' placeholder='Describe your project here' name='message'></textarea>
             </div>
             <button type='submit' className='send-btn' value='send ' >
