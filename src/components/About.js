@@ -1,5 +1,6 @@
 import React from 'react';
 import bg from "../assets/banner-img.jpg"
+import { Link } from 'react-scroll'
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
 
         Throughout my career, I’ve worked on a variety of projects, including e-commerce websites and enterprise-level applications, focusing on enhancing user experiences through clean and efficient code. I enjoy transforming complex problems into intuitive, visually appealing designs.<br/>
 
-        <span className='aboutBuildPara'>Let’s build something great together!</span>
+        <span className='aboutBuildPara'><Link to='contact'>Let’s build something great together!</Link></span>
 </p>
       </div>
 

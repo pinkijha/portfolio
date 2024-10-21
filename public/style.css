@@ -201,8 +201,7 @@ body{
     color: black;
     width: 450px;
     border-radius: 40px 10px;
-    margin-top: 10px;
-    margin-left: 100px;
+    margin: 10px 0px 0px 100px ;
     box-shadow: 5px 8px 8px 5px #aaaaaa;
 }
 .aboutPara{
@@ -573,13 +572,14 @@ body{
     
         .aboutSection{
             position: absolute;
-            top: 550px;  
+            top: 650px;  
             left: 10px;
             z-index: 5;
             color: black;
-            max-width: auto;
+            width: auto;
             border-radius: 40px 10px;
-            box-shadow: 2px 2px 2px 3px #aaaaaa;
+            /* margin: 10px 50px 10px; */
+            box-shadow: 1px 1px 2px 2px #aaaaaa;
         }
         .aboutPara{
             padding: 10px;
@@ -600,7 +600,7 @@ body{
         }
         
     }
-@media screen  and (max-width: 420px){
+@media  (min-width: 200px)  and (max-width: 600px){
               
             /* headerSection */
 
@@ -656,6 +656,7 @@ body{
             }
             .aboutMain{
                 background-color: white;
+                
             }
         
             .aboutSection{
@@ -663,9 +664,9 @@ body{
                 top: 550px; 
                 z-index: 10;
                 color: black;
-                width: 320px;
+                width: auto;
+                margin: 10px 50px 10px;
                 border-radius: 40px 10px;
-                margin: 0px 0px;
                 box-shadow: 2px 2px 2px 3px #aaaaaa;
             }
             .aboutPara{
@@ -706,7 +707,7 @@ body{
 /* Mobile (screens 480px to 768px) */
 @media screen and (max-width: 768px) {
     .container {
-        margin: 10px 20px;
+        margin: 50px 20px;
         padding: 20px;
     }
     .skillSection{
@@ -725,12 +726,13 @@ body{
 /* Small Mobile (screens below 480px) */
 @media screen and (max-width: 480px) {
     .container {
-        margin: 5px 10px;
+        margin: 20px 10px;
         padding: 10px;
     }
     
     .skill-items {
-        width: 100%; /* Full width on small mobile */
+        width: 100%;
+        /* Full width on small mobile */
     }
 
     .headingSkills {
@@ -755,7 +757,7 @@ body{
         display: block;
     }
     .cards{
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
     
     .projectSection{
@@ -765,7 +767,7 @@ body{
     }
     .cardsProjects{
         margin: 10px 0px 10px 60px ;
-    
+        padding-bottom: 5px;
     }
     
 }
@@ -847,8 +849,11 @@ body{
     .conatct-page {
       flex-direction: column;
       align-items: center;
-      margin-left: 10px;
+      margin: 10px 50px;
       padding: 0 20px;
+    }
+    .contact-card{
+        margin: 10px 50px;
     }
   
     .contact-card,
@@ -860,7 +865,9 @@ body{
   
   /* For screens smaller than 768px (mobile devices) */
   @media screen and (max-width: 768px) {
-
+    .conatct-page {
+        margin: 10px 50px;
+      }    
     .contactSection{
         margin-bottom: 10px;
     }
