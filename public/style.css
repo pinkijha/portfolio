@@ -578,7 +578,7 @@ body{
             color: black;
             width: auto;
             border-radius: 40px 10px;
-            /* margin: 10px 50px 10px; */
+            margin: 10px 50px 10px;
             box-shadow: 1px 1px 2px 2px #aaaaaa;
         }
         .aboutPara{
@@ -600,7 +600,8 @@ body{
         }
         
     }
-@media  (min-width: 200px)  and (max-width: 960px){
+    
+@media  (min-width: 200px)  and (max-width: 800px){
               
             /* headerSection */
 
@@ -761,7 +762,7 @@ body{
     }
     
     .projectSection{
-        margin-top: 430px;
+        margin-top: 400px;
         width: 100%; 
 
     }
@@ -770,6 +771,22 @@ body{
         padding-bottom: 5px;
     }
     
+}
+
+@media screen and (max-width: 480px){
+    .projectSection{
+        margin-top: 260px;
+        width: 100%; 
+
+    }
+}
+
+@media screen and (max-width: 780px){
+    .projectSection{
+        margin-top: 600px;
+        width: 100%; 
+
+    }
 }
 
 
